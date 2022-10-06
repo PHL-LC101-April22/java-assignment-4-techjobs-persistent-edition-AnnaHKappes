@@ -81,12 +81,8 @@ public class JobData {
             } else if (job.toString().toLowerCase().contains(lower_val)) {
                 results.add(job);
             }
-
         }
-
         return results;
     }
 
-
 }
-
